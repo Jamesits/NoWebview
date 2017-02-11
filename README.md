@@ -10,6 +10,10 @@ Put the following code into your website (anywhere is OK):
 <script src="https://rawgit.com/Jamesits/NoWebview/master/nowebview/nowebview.js"></script>
 ```
 
+## Compatibility
+
+All modern browsers (Edge, Chrome, Firefox, Safari) should work. No IE compatibility currently.
+
 ## Thanks
 
 * [clarkzjw/Error451-Blackout](https://github.com/clarkzjw/Error451-Blackout)
