@@ -65,7 +65,7 @@ var nowebview = {
         `
     }],
     doCheck: function() {
-        return rules.some(function applyRule(rule) {
+        return nowebview.checkers.some(function applyRule(rule) {
             return rule();
         });
     },
@@ -93,5 +93,5 @@ var nowebview = {
     });
   }
 })(function(){
-    nowebview.displayWarning(0);
+    if (nowebview.doCheck()) nowebview.displayWarning(0);
 });
